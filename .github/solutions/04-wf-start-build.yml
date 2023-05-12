@@ -50,7 +50,7 @@ jobs:
 
   container-hello:
     name: Container Hello
-    uses: <your.github.username>/techbrunch-github-actions/.github/workflows/04-job-container.yml@main
+    uses: littyavaran-nag/techbrunch-github-actions/.github/workflows/04-job-container.yml@main
     secrets: inherit
     needs: [build]
     with:
@@ -58,7 +58,7 @@ jobs:
 
   container-byebye:
     name: Container Byebye
-    uses: <your.github.username>/techbrunch-github-actions/.github/workflows/04-job-container.yml@main
+    uses: littyavaran-nag/techbrunch-github-actions/.github/workflows/04-job-container.yml@main
     secrets: inherit
     needs: [build]
     with:
